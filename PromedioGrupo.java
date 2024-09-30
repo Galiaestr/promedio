@@ -12,16 +12,16 @@ public class PromedioGrupo{
     public static void main (String[] args) throws IOException{ 
         int N; //El tamaño del arreglo
         //Para lectura de datos
-        BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));git init
+        BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         String entrada;
         double[] calificaciones; //arreglo de calificaciones
         double suma = 0; //para sumar calificaciones
         double promedio; //El promedio del grupo
 
-            System.out.println("Programma que calcula el promedio de un grupo");
-            System.out.println("Escribe tamaño del grupo: ");
-            entrada = bufer.readLine();
-            N = Integer.parseInt(entrada);
+        System.out.println("Programma que calcula el promedio de un grupo");
+        System.out.println("Escribe tamaño del grupo: ");
+        entrada = bufer.readLine();
+        N = Integer.parseInt(entrada);
 
             //construimos el arreglo de calificaciones
             calificaciones = new double[N];
